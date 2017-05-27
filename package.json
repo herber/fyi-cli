@@ -1,6 +1,6 @@
 {
   "name": "fyi-cli",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "The cli for fyi",
   "license": "MIT",
   "repository": "tobihrbr/fyi-cli",
@@ -13,7 +13,7 @@
     "fyi-init": "./cli.js"
   },
   "engines": {
-    "node": ">=5"
+    "node": ">=4"
   },
   "keywords": [
     "fyi",
@@ -34,6 +34,6 @@
     "test-watch": "fyi --watch"
   },
   "devDependencies": {
-    "fyi": "^0.1.1"
+    "fyi": "^0.1.4"
   }
 }
