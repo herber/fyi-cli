@@ -1,0 +1,39 @@
+{
+  "name": "fyi-cli",
+  "version": "0.1.0",
+  "description": "The cli for fyi",
+  "license": "MIT",
+  "repository": "tobihrbr/fyi-cli",
+  "author": {
+    "name": "tobihrbr",
+    "email": "tobihrbr@gmail.com",
+    "url": "tobihrbr.com"
+  },
+  "bin": {
+    "fyi-init": "./cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "keywords": [
+    "fyi",
+    "eslint",
+    "lint",
+    "code",
+    "javascript",
+    "js"
+  ],
+  "dependencies": {
+    "execa": "^0.6.3"
+  },
+  "fyi": {
+    "ignore": []
+  },
+  "scripts": {
+    "test": "fyi",
+    "test-watch": "fyi --watch"
+  },
+  "devDependencies": {
+    "fyi": "^0.1.1"
+  }
+}
