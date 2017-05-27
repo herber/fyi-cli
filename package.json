@@ -13,7 +13,7 @@
     "fyi-init": "./cli.js"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=5"
   },
   "keywords": [
     "fyi",
